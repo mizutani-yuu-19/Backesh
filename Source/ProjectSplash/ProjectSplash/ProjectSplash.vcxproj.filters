@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン">
+      <UniqueIdentifier>{9507e38c-a1b3-40d6-b053-9a275b2be4b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ほぼ編集しない奴ら">
+      <UniqueIdentifier>{686475a7-9ca2-4fb3-9491-ca62820bb638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\キャラクター">
+      <UniqueIdentifier>{7d854a4c-c4d2-46fa-af3f-d7148f81a4c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ステージ">
+      <UniqueIdentifier>{2e922e10-8872-4ceb-a4da-dae79eeef9a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2D">
+      <UniqueIdentifier>{ea0425d6-717d-40a6-a2fe-acfeb6b25bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2D\UI">
+      <UniqueIdentifier>{23acc417-5adf-4d4e-8fd3-5263ce92e094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\システム">
+      <UniqueIdentifier>{aa3974d5-d913-4722-a1a8-5e459dfbc097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\システム\スキンメッシュ">
+      <UniqueIdentifier>{1ef37ebb-323b-4239-8fbf-191dbd6040d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\エフェクト">
+      <UniqueIdentifier>{4bcbe9a6-9b0f-41a7-814b-eb1a95793a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\カメラ">
+      <UniqueIdentifier>{448bafc6-9fa6-467e-85de-ed38f79083f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ほぼ編集しない奴ら\デバッグ">
+      <UniqueIdentifier>{44e240e7-9c35-4a4a-b759-2289c7fbc10f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="water_atk.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="water_puddle.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_mgr.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="select.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>ソース ファイル\ほぼ編集しない奴ら</Filter>
+    </ClCompile>
+    <ClCompile Include="game_pad.cpp">
+      <Filter>ソース ファイル\ほぼ編集しない奴ら</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\ほぼ編集しない奴ら</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル\ほぼ編集しない奴ら</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow.cpp">
+      <Filter>ソース ファイル\ほぼ編集しない奴ら</Filter>
+    </ClCompile>
+    <ClCompile Include="stage.cpp">
+      <Filter>ソース ファイル\ステージ</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>ソース ファイル\キャラクター</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>ソース ファイル\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>ソース ファイル\2D\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIwater.cpp">
+      <Filter>ソース ファイル\2D\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIdamage.cpp">
+      <Filter>ソース ファイル\2D\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UItimer.cpp">
+      <Filter>ソース ファイル\2D\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="RGBConvert.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshObj.cpp">
+      <Filter>ソース ファイル\システム\スキンメッシュ</Filter>
+    </ClCompile>
+    <ClCompile Include="MyHierarchy.cpp">
+      <Filter>ソース ファイル\システム\スキンメッシュ</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>ソース ファイル\システム\スキンメッシュ</Filter>
+    </ClCompile>
+    <ClCompile Include="skydome.cpp">
+      <Filter>ソース ファイル\ステージ</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>ソース ファイル\エフェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\カメラ</Filter>
+    </ClCompile>
+    <ClCompile Include="UIstartcount.cpp">
+      <Filter>ソース ファイル\2D\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIplayer.cpp">
+      <Filter>ソース ファイル\2D\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIscore.cpp">
+      <Filter>ソース ファイル\2D\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>ソース ファイル\ほぼ編集しない奴ら\デバッグ</Filter>
+    </ClCompile>
+    <ClCompile Include="debugproc.cpp">
+      <Filter>ソース ファイル\ほぼ編集しない奴ら\デバッグ</Filter>
+    </ClCompile>
+    <ClCompile Include="UIskill.cpp">
+      <Filter>ソース ファイル\2D\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>ソース ファイル\キャラクター</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\キャラクター</Filter>
+    </ClCompile>
+    <ClCompile Include="UIresult.cpp">
+      <Filter>ソース ファイル\2D\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="water_atk.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="water_puddle.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_mgr.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="select.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>ソース ファイル\ほぼ編集しない奴ら</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ソース ファイル\ほぼ編集しない奴ら</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ソース ファイル\ほぼ編集しない奴ら</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h">
+      <Filter>ソース ファイル\ほぼ編集しない奴ら</Filter>
+    </ClInclude>
+    <ClInclude Include="game_pad.h">
+      <Filter>ソース ファイル\ほぼ編集しない奴ら</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>ソース ファイル\キャラクター</Filter>
+    </ClInclude>
+    <ClInclude Include="stage.h">
+      <Filter>ソース ファイル\ステージ</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>ソース ファイル\キャラクター</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ソース ファイル\キャラクター</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ソース ファイル\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>ソース ファイル\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>ソース ファイル\2D\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIwater.h">
+      <Filter>ソース ファイル\2D\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIdamage.h">
+      <Filter>ソース ファイル\2D\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UItimer.h">
+      <Filter>ソース ファイル\2D\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="RGBConvert.h">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>ソース ファイル\システム\スキンメッシュ</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshObj.h">
+      <Filter>ソース ファイル\システム\スキンメッシュ</Filter>
+    </ClInclude>
+    <ClInclude Include="MyHierarchy.h">
+      <Filter>ソース ファイル\システム\スキンメッシュ</Filter>
+    </ClInclude>
+    <ClInclude Include="skydome.h">
+      <Filter>ソース ファイル\ステージ</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ソース ファイル\システム</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>ソース ファイル\エフェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ソース ファイル\カメラ</Filter>
+    </ClInclude>
+    <ClInclude Include="UIstartcount.h">
+      <Filter>ソース ファイル\2D\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIplayer.h">
+      <Filter>ソース ファイル\2D\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIscore.h">
+      <Filter>ソース ファイル\2D\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>ソース ファイル\ほぼ編集しない奴ら\デバッグ</Filter>
+    </ClInclude>
+    <ClInclude Include="debugproc.h">
+      <Filter>ソース ファイル\ほぼ編集しない奴ら\デバッグ</Filter>
+    </ClInclude>
+    <ClInclude Include="mleak.h">
+      <Filter>ソース ファイル\ほぼ編集しない奴ら\デバッグ</Filter>
+    </ClInclude>
+    <ClInclude Include="UIskill.h">
+      <Filter>ソース ファイル\2D\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIresult.h">
+      <Filter>ソース ファイル\2D\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
